@@ -15,7 +15,7 @@ store.$subscribe((mutation) => {
       JSON.stringify({
         // companies: store.companies,
         // query: store.query,
-      })
+      }),
     );
   }
 });
